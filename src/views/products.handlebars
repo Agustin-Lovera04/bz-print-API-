@@ -1,0 +1,14 @@
+<h1>Product Page</h1>
+
+<div class="product-list">
+  {{#each productos}}
+  <div class="product-card">
+    <h2 class="product-title">{{title}}</h2>
+    <p class="product-description">{{descripcion}}</p>
+    <p class="product-price">$ {{precio}}</p>
+    <p class="product-stock">Stock: {{stock}}</p>
+    <p class="product-stock">ID: {{id}}</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  {{/each}}
+</div>
